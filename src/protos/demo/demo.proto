@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package example.model.demo;
+
+message Demo {
+    // primary key for this model
+    uint32 id = 1;
+    // name of the Demo model column 
+    string name = 2;
+}
