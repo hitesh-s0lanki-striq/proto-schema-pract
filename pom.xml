@@ -6,7 +6,7 @@
 
     <groupId>com.proto</groupId>
     <artifactId>proto-schema-pract</artifactId>
-    <version>31.6.10</version>
+    <version>1.0.0</version>
     <name>${project.artifactId}</name>
     <description>API contracts and  Data Transfer Objects(DTO) in the form of Protocol Buffers for binaries.</description>
 
@@ -16,13 +16,13 @@
         <protoc.version>3.25.3</protoc.version>
     </properties>
 
-    <!-- <distributionManagement>
+    <distributionManagement>
         <repository>
             <id>github</id>
-            <name>hitesh-s0lanki-striq</name>
-            <url>https://maven.pkg.github.com/DigiStrique-Solutions/strique-proto-schema</url>
+            <name>hitesh-s0lanki-striq/proto-schema-pract</name>
+            <url>https://maven.pkg.github.com/hitesh-s0lanki-striq/proto-schema-pract</url>
         </repository>
-    </distributionManagement> -->
+    </distributionManagement>
 
     <dependencies>
         <dependency>
